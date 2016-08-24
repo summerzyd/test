@@ -1,0 +1,199 @@
+[basePath:protected] => F:\xampp\htdocs\lumen
+    [loadedConfigurations:protected] => Array
+        (
+        )
+
+    [loadedProviders:protected] => Array
+        (
+        )
+
+    [ranServiceBinders:protected] => Array
+        (
+        )
+
+    [monologConfigurator:protected] => 
+    [namespace:protected] => 
+    [availableBindings] => Array
+        (
+            [auth] => registerAuthBindings
+            [auth.driver] => registerAuthBindings
+            [Illuminate\Contracts\Auth\Guard] => registerAuthBindings
+            [Illuminate\Contracts\Auth\Access\Gate] => registerAuthBindings
+            [Illuminate\Contracts\Broadcasting\Broadcaster] => registerBroadcastingBindings
+            [Illuminate\Contracts\Bus\Dispatcher] => registerBusBindings
+            [cache] => registerCacheBindings
+            [cache.store] => registerCacheBindings
+            [Illuminate\Contracts\Cache\Factory] => registerCacheBindings
+            [Illuminate\Contracts\Cache\Repository] => registerCacheBindings
+            [composer] => registerComposerBindings
+            [config] => registerConfigBindings
+            [db] => registerDatabaseBindings
+            [Illuminate\Database\Eloquent\Factory] => registerDatabaseBindings
+            [encrypter] => registerEncrypterBindings
+            [Illuminate\Contracts\Encryption\Encrypter] => registerEncrypterBindings
+            [events] => registerEventBindings
+            [Illuminate\Contracts\Events\Dispatcher] => registerEventBindings
+            [files] => registerFilesBindings
+            [hash] => registerHashBindings
+            [Illuminate\Contracts\Hashing\Hasher] => registerHashBindings
+            [log] => registerLogBindings
+            [Psr\Log\LoggerInterface] => registerLogBindings
+            [queue] => registerQueueBindings
+            [queue.connection] => registerQueueBindings
+            [Illuminate\Contracts\Queue\Factory] => registerQueueBindings
+            [Illuminate\Contracts\Queue\Queue] => registerQueueBindings
+            [request] => registerRequestBindings
+            [Psr\Http\Message\ServerRequestInterface] => registerPsrRequestBindings
+            [Psr\Http\Message\ResponseInterface] => registerPsrResponseBindings
+            [Illuminate\Http\Request] => registerRequestBindings
+            [translator] => registerTranslationBindings
+            [url] => registerUrlGeneratorBindings
+            [validator] => registerValidatorBindings
+            [view] => registerViewBindings
+            [Illuminate\Contracts\View\Factory] => registerViewBindings
+        )
+
+    [resolved:protected] => Array
+        (
+        )
+
+    [bindings:protected] => Array
+        (
+            [Illuminate\Contracts\Debug\ExceptionHandler] => Array
+                (
+                    [concrete] => Closure Object
+                        (
+                            [static] => Array
+                                (
+                                    [abstract] => Illuminate\Contracts\Debug\ExceptionHandler
+                                    [concrete] => App\Exceptions\Handler
+                                )
+
+                            [this] => Laravel\Lumen\Application Object
+ *RECURSION*
+                            [parameter] => Array
+                                (
+                                    [$c] => <required>
+                                    [$parameters] => <optional>
+                                )
+
+                        )
+
+                    [shared] => 1
+                )
+
+            [Illuminate\Contracts\Console\Kernel] => Array
+                (
+                    [concrete] => Closure Object
+                        (
+                            [static] => Array
+                                (
+                                    [abstract] => Illuminate\Contracts\Console\Kernel
+                                    [concrete] => App\Console\Kernel
+                                )
+
+                            [this] => Laravel\Lumen\Application Object
+ *RECURSION*
+                            [parameter] => Array
+                                (
+                                    [$c] => <required>
+                                    [$parameters] => <optional>
+                                )
+
+                        )
+
+                    [shared] => 1
+                )
+
+        )
+
+    [instances:protected] => Array
+        (
+            [app] => Laravel\Lumen\Application Object
+ *RECURSION*
+            [Laravel\Lumen\Application] => Laravel\Lumen\Application Object
+ *RECURSION*
+            [path] => F:\xampp\htdocs\lumen\app
+        )
+
+    [aliases:protected] => Array
+        (
+            [Illuminate\Contracts\Foundation\Application] => app
+            [Illuminate\Contracts\Auth\Factory] => auth
+            [Illuminate\Contracts\Auth\Guard] => auth.driver
+            [Illuminate\Contracts\Cache\Factory] => cache
+            [Illuminate\Contracts\Cache\Repository] => cache.store
+            [Illuminate\Contracts\Config\Repository] => config
+            [Illuminate\Container\Container] => app
+            [Illuminate\Contracts\Container\Container] => app
+            [Illuminate\Contracts\Encryption\Encrypter] => encrypter
+            [Illuminate\Contracts\Events\Dispatcher] => events
+            [Illuminate\Contracts\Hashing\Hasher] => hash
+            [log] => Psr\Log\LoggerInterface
+            [Illuminate\Contracts\Queue\Factory] => queue
+            [Illuminate\Contracts\Queue\Queue] => queue.connection
+            [request] => Illuminate\Http\Request
+            [Laravel\Lumen\Routing\UrlGenerator] => url
+            [Illuminate\Contracts\View\Factory] => view
+        )
+
+    [extenders:protected] => Array
+        (
+        )
+
+    [tags:protected] => Array
+        (
+        )
+
+    [buildStack:protected] => Array
+        (
+        )
+
+    [contextual] => Array
+        (
+        )
+
+    [reboundCallbacks:protected] => Array
+        (
+        )
+
+    [globalResolvingCallbacks:protected] => Array
+        (
+        )
+
+    [globalAfterResolvingCallbacks:protected] => Array
+        (
+        )
+
+    [resolvingCallbacks:protected] => Array
+        (
+        )
+
+    [afterResolvingCallbacks:protected] => Array
+        (
+        )
+
+    [routes:protected] => Array
+        (
+        )
+
+    [namedRoutes] => Array
+        (
+        )
+
+    [middleware:protected] => Array
+        (
+        )
+
+    [routeMiddleware:protected] => Array
+        (
+        )
+
+    [groupAttributes:protected] => Array
+        (
+            [namespace] => App\Http\Controllers
+        )
+
+    [currentRoute:protected] => 
+    [dispatcher:protected] => 
+)

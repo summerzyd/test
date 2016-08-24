@@ -1,0 +1,216 @@
+ [basePath:protected] => F:\xampp\htdocs\lumen
+    [storagePath:protected] => 
+    [configPath:protected] => 
+    [resourcePath:protected] => 
+    [loadedConfigurations:protected] => Array
+        (
+        )
+
+    [routes:protected] => Array
+        (
+        )
+
+    [namedRoutes] => Array
+        (
+        )
+
+    [groupAttributes:protected] => Array
+        (
+            [namespace] => App\Http\Controllers
+        )
+
+    [middleware:protected] => Array
+        (
+        )
+
+    [routeMiddleware:protected] => Array
+        (
+        )
+
+    [currentRoute:protected] => 
+    [loadedProviders:protected] => Array
+        (
+        )
+
+    [ranServiceBinders:protected] => Array
+        (
+        )
+
+    [dispatcher:protected] => 
+    [monologConfigurator:protected] => 
+    [namespace:protected] => 
+    [availableBindings] => Array
+        (
+            [auth] => registerAuthBindings
+            [auth.driver] => registerAuthBindings
+            [Illuminate\Contracts\Auth\Guard] => registerAuthBindings
+            [auth.password] => registerAuthBindings
+            [Illuminate\Contracts\Auth\PasswordBroker] => registerAuthBindings
+            [Illuminate\Contracts\Broadcasting\Broadcaster] => registerBroadcastingBindings
+            [Illuminate\Contracts\Bus\Dispatcher] => registerBusBindings
+            [cache] => registerCacheBindings
+            [Illuminate\Contracts\Cache\Factory] => registerCacheBindings
+            [Illuminate\Contracts\Cache\Repository] => registerCacheBindings
+            [config] => registerConfigBindings
+            [composer] => registerComposerBindings
+            [cookie] => registerCookieBindings
+            [Illuminate\Contracts\Cookie\Factory] => registerCookieBindings
+            [Illuminate\Contracts\Cookie\QueueingFactory] => registerCookieBindings
+            [db] => registerDatabaseBindings
+            [Illuminate\Database\Eloquent\Factory] => registerDatabaseBindings
+            [encrypter] => registerEncrypterBindings
+            [Illuminate\Contracts\Encryption\Encrypter] => registerEncrypterBindings
+            [events] => registerEventBindings
+            [Illuminate\Contracts\Events\Dispatcher] => registerEventBindings
+            [Illuminate\Contracts\Debug\ExceptionHandler] => registerErrorBindings
+            [files] => registerFilesBindings
+            [filesystem] => registerFilesBindings
+            [Illuminate\Contracts\Filesystem\Factory] => registerFilesBindings
+            [hash] => registerHashBindings
+            [Illuminate\Contracts\Hashing\Hasher] => registerHashBindings
+            [log] => registerLogBindings
+            [Psr\Log\LoggerInterface] => registerLogBindings
+            [mailer] => registerMailBindings
+            [Illuminate\Contracts\Mail\Mailer] => registerMailBindings
+            [queue] => registerQueueBindings
+            [queue.connection] => registerQueueBindings
+            [Illuminate\Contracts\Queue\Factory] => registerQueueBindings
+            [Illuminate\Contracts\Queue\Queue] => registerQueueBindings
+            [redis] => registerRedisBindings
+            [request] => registerRequestBindings
+            [Illuminate\Http\Request] => registerRequestBindings
+            [session] => registerSessionBindings
+            [session.store] => registerSessionBindings
+            [Illuminate\Session\SessionManager] => registerSessionBindings
+            [translator] => registerTranslationBindings
+            [url] => registerUrlGeneratorBindings
+            [validator] => registerValidatorBindings
+            [view] => registerViewBindings
+            [Illuminate\Contracts\View\Factory] => registerViewBindings
+        )
+
+    [resolved:protected] => Array
+        (
+        )
+
+    [bindings:protected] => Array
+        (
+            [Illuminate\Contracts\Debug\ExceptionHandler] => Array
+                (
+                    [concrete] => Closure Object
+                        (
+                            [static] => Array
+                                (
+                                    [abstract] => Illuminate\Contracts\Debug\ExceptionHandler
+                                    [concrete] => App\Exceptions\Handler
+                                )
+
+                            [this] => Laravel\Lumen\Application Object
+ *RECURSION*
+                            [parameter] => Array
+                                (
+                                    [$c] => <required>
+                                    [$parameters] => <optional>
+                                )
+
+                        )
+
+                    [shared] => 1
+                )
+
+            [Illuminate\Contracts\Console\Kernel] => Array
+                (
+                    [concrete] => Closure Object
+                        (
+                            [static] => Array
+                                (
+                                    [abstract] => Illuminate\Contracts\Console\Kernel
+                                    [concrete] => App\Console\Kernel
+                                )
+
+                            [this] => Laravel\Lumen\Application Object
+ *RECURSION*
+                            [parameter] => Array
+                                (
+                                    [$c] => <required>
+                                    [$parameters] => <optional>
+                                )
+
+                        )
+
+                    [shared] => 1
+                )
+
+        )
+
+    [instances:protected] => Array
+        (
+            [app] => Laravel\Lumen\Application Object
+ *RECURSION*
+            [path] => F:\xampp\htdocs\lumen\app
+        )
+
+    [aliases:protected] => Array
+        (
+            [Illuminate\Contracts\Foundation\Application] => app
+            [Illuminate\Contracts\Auth\Guard] => auth.driver
+            [Illuminate\Contracts\Auth\PasswordBroker] => auth.password
+            [Illuminate\Contracts\Cache\Factory] => cache
+            [Illuminate\Contracts\Cache\Repository] => cache.store
+            [Illuminate\Contracts\Config\Repository] => config
+            [Illuminate\Container\Container] => app
+            [Illuminate\Contracts\Container\Container] => app
+            [Illuminate\Contracts\Cookie\Factory] => cookie
+            [Illuminate\Contracts\Cookie\QueueingFactory] => cookie
+            [Illuminate\Contracts\Encryption\Encrypter] => encrypter
+            [Illuminate\Contracts\Events\Dispatcher] => events
+            [Illuminate\Contracts\Filesystem\Factory] => filesystem
+            [Illuminate\Contracts\Hashing\Hasher] => hash
+            [log] => Psr\Log\LoggerInterface
+            [Illuminate\Contracts\Mail\Mailer] => mailer
+            [Illuminate\Contracts\Queue\Factory] => queue
+            [Illuminate\Contracts\Queue\Queue] => queue.connection
+            [Illuminate\Redis\Database] => redis
+            [Illuminate\Contracts\Redis\Database] => redis
+            [request] => Illuminate\Http\Request
+            [Illuminate\Session\SessionManager] => session
+            [Illuminate\Contracts\View\Factory] => view
+        )
+
+    [extenders:protected] => Array
+        (
+        )
+
+    [tags:protected] => Array
+        (
+        )
+
+    [buildStack:protected] => Array
+        (
+        )
+
+    [contextual] => Array
+        (
+        )
+
+    [reboundCallbacks:protected] => Array
+        (
+        )
+
+    [globalResolvingCallbacks:protected] => Array
+        (
+        )
+
+    [globalAfterResolvingCallbacks:protected] => Array
+        (
+        )
+
+    [resolvingCallbacks:protected] => Array
+        (
+        )
+
+    [afterResolvingCallbacks:protected] => Array
+        (
+        )
+
+)
